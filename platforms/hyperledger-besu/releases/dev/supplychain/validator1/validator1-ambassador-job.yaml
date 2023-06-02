@@ -30,7 +30,7 @@ spec:
       clientport: 8888
     vault:
       address: 172.21.122.44:8200
-      secretengine: secretsv2
+      secretengine: secretsv2besu
       authpath: besusupplychain
       rootcasecret: data/supplychain-bes/crypto/ambassadorcerts/rootca
       ambassadortlssecret: data/supplychain-bes/crypto/validator1/tls
