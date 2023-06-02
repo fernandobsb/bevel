@@ -29,8 +29,8 @@ spec:
       address: 172.21.122.44:8200
       authpath: besucarrier
       policy: vault-crypto-carrier-bes-carrier-ro
-      policydata: "{\n  \"policy\": \"path \\\"secretsv2/data/carrier-bes/crypto/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\", \\\"create\\\", \\\"update\\\"]\n  }\n  path \\\"secretsv2/data/carrier-bes/smartContracts/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\"]\n  }\"\n}"
-      secret_path: secretsv2
+      policydata: "{\n  \"policy\": \"path \\\"secretsv2besu/data/carrier-bes/crypto/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\", \\\"create\\\", \\\"update\\\"]\n  }\n  path \\\"secretsv2besu/data/carrier-bes/smartContracts/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\"]\n  }\"\n}"
+      secret_path: secretsv2besu
       serviceaccountname: vault-auth
       imagesecretname: regcred
 
