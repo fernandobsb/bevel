@@ -26,7 +26,7 @@ spec:
     vault:
       reviewer_service: vault-reviewer
       role: vault-role
-      address: 172.21.122.44:8200
+      address: http://172.21.122.44:8200
       authpath: besusupplychain
       policy: vault-crypto-supplychain-bes-supplychain-ro
       policydata: "{\n  \"policy\": \"path \\\"secretsv2/data/supplychain-bes/crypto/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\", \\\"create\\\", \\\"update\\\"]\n  }\n  path \\\"secretsv2/data/supplychain-bes/smartContracts/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\"]\n  }\"\n}"
