@@ -28,6 +28,9 @@ spec:
       - "enode://5f222a074258f3b9eacb64efa7df44f3685878e062e692b1d08e01b4f26b71e0fd3054882d43c28ba4dcef19fe5f6335c5c039b8159079c70914721cf0c4e381@validator3.supplychain-bes.svc.cluster.local:30303"
       - "enode://be0b55844fffaf9a6c8fe9151fa3c1a9d9afd9b30f7ae96156092825c8798f9b9fadf81f80a14d6e40892a592c53aa2953b8cc9c41cf449ea5a1862e83180219@validator4.supplychain-bes.svc.cluster.local:30303"
       - "enode://3d86f6132bdf70e31fe61c59950f7103d119f2fee3f668ede27931ca0833b843b14eb5b6ecdaf43f057304a156ad51607cad650a7224155ef5fdd916b31e0009@carrier.carrier-bes.svc.cluster.local:30303"
+      - "enode://da58082c5d64f151d248b9c775994bb79df70af01683f0ee0b8ca45c73fa94e00ef82df459d0b43356d06d14a2536c9185c8edca437736d384f54295cd9ebbf3@manufacturer.manufacturer-bes.svc.cluster.local:30303"
+      - "enode://211c457ee222545522f0fd317ad9655d71e8415d45cd457685307c3066c33e4dd53485b3f307e55fa295bcd9a777c376e50945c138edfc1a490469832b55cd32@store.store-bes.svc.cluster.local:30303"
+      - "enode://75159a3cc9db550bd4a2a729b1e23756659fae5edf483db3cd26b0136999ff77d96bba11854ff4e9f17d1211fbbd72cb4acc70dc45b61cd09fb990d7e4af60f2@warehouse.warehouse-bes.svc.cluster.local:30303"
 
     metadata:
       namespace: supplychain-bes
