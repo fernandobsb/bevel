@@ -29,7 +29,7 @@ spec:
       name: carrier
       clientport: 8888
     vault:
-      address: 172.21.122.44:8200
+      address: http://172.21.122.44:8200
       secretengine: secretsv2
       authpath: besucarrier
       rootcasecret: data/carrier-bes/crypto/ambassadorcerts/rootca
