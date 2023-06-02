@@ -26,7 +26,7 @@ spec:
     vault:
       reviewer_service: vault-reviewer
       role: vault-role
-      address: 172.21.122.44:8200
+      address: http://172.21.122.44:8200
       authpath: besucarrier
       policy: vault-crypto-carrier-bes-carrier-ro
       policydata: "{\n  \"policy\": \"path \\\"secretsv2/data/carrier-bes/crypto/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\", \\\"create\\\", \\\"update\\\"]\n  }\n  path \\\"secretsv2/data/carrier-bes/smartContracts/*\\\" {\n    capabilities = [\\\"read\\\", \\\"list\\\"]\n  }\"\n}"
